@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="parent container">
+      <header>
+        <nav class="nav">
+          <ul class="list">
+            <li class="list-item"><a href="#me" class="anker">About me</a></li>
+            <li class="list-item"><a href="#skils" class="anker">Skils</a></li>
+            <li class="list-item">
+              <a href="#soft" class="anker">Soft-skils</a>
+            </li>
+            <li class="list-item"><a href="#code" class="anker">Code</a></li>
+            <li class="list-item">
+              <a href="#projects" class="anker">Projects</a>
+            </li>
+            <li class="list-item">
+              <a href="#contact" class="anker">Contact</a>
+            </li>
+            <li class="list-item">
+              <a href="#edu" class="anker">Education</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <div class="grid grid--2-cols helper">
+          <div class="img">
+            <img src="assets/powder.jpg" alt="powder-before-jinx" />
+          </div>
+          <div class="name">
+            <h1 class="h1">Ivan Kulikou</h1>
+            <p>Front end developer</p>
+          </div>
+        </div>
+        <div class="grid grid--2-cols helper">
+          <div class="contact left-side-info">
+            <h2 id="contact">Contact</h2>
+            <ul class="main-list">
+              <li>Phone: +375299999999</li>
+              <li>email: valfson@gmail.com</li>
+              <li>discord: Ivan Kulikou</li>
+              <li>Telegram: +48570291460</li>
+            </ul>
+          </div>
+          <div class="about" id="me">
+            <p>
+              <b>Hi</b> My name is Ivan. I am 29 years old. Most of my adult
+              life I was working as an LKW driver. It is very hard work, but
+              also a very interesting one. But years are passing by, so I
+              started to care more about my time I spend at home with my family
+              and my friends. I am an active user of computers, internet and
+              love computer games so since I spend a lot of time in front of the
+              screen I decided to become a Front End developer. From my previous
+              job I learned to be patient, adapt quickly, to a changing
+              environment, and to communicate with different people fast.
+            </p>
+          </div>
+        </div>
+        <div class="grid grid--2-cols helper">
+          <div class="education left-side-info">
+            <h2 id="edu">Education</h2>
+            <ul class="main-list">
+              <li>Belarus State Economic University</li>
+              <li>University of Warsaw</li>
+              <li>Rs School</li>
+            </ul>
+          </div>
+          <div class="skills">
+            <h2 id="skils">Skils</h2>
+            <div class="list-right">
+              <div>
+                <ul class="main-list">
+                  <li>HTML</li>
+                  <li>CSS/SASS</li>
+                  <li>JavaScript</li>
+                </ul>
+              </div>
+              <div>
+                <ul class="main-list">
+                  <li>Russian: native</li>
+                  <li>Polish: B2</li>
+                  <li>English B2</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid grid--2-cols helper">
+          <div class="education left-side-info"></div>
+          <div class="skills soft-skils">
+            <h2 id="soft">Soft Skils</h2>
+            <div class="list-right">
+              <div>
+                <ul class="main-list">
+                  <li>Qlick learner</li>
+                  <li>PatienceS</li>
+                  <li>Hard worker</li>
+                </ul>
+              </div>
+              <div>
+                <ul class="main-list">
+                  <li>Easy cominicate with people</li>
+                  <li>Fast making friends</li>
+                  <li>Adapt quickly</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid grid--2-cols helper">
+          <div class="education left-side-info"></div>
+          <div class="skills soft-skils">
+            <h2 id="code">Code Example</h2>
+            <code>
+              <span class="blue">function</span>
+              <span class="green">reverseString</span> (<span class="orange"
+                >str</span
+              >) { <span class="red"> return</span> str.<span class="green"
+                >split</span
+              >("").<span class="green">reverse</span>().
+              <span class="green">join</span>(""); }
+              <span class="green">reverseString</span> ("<span class="yellow"
+                >hello</span
+              >");
+            </code>
+          </div>
+        </div>
+        <div class="grid grid--2-cols helper">
+          <div class="education left-side-info"></div>
+          <div class="skills soft-skils">
+            <h2 id="projects">My projects</h2>
+            <a href="https://ivankulikou.github.io/rsschool-cv/">
+              <img src="assets/cv.png" alt="first-project" />
+            </a>
+          </div>
+        </div>
+      </main>
+
+      <footer class="nav">
+        <ul class="list cut-padding">
+          <li class="list-item">
+            <a href="https://github.com/IvanKulikou" class="anker">Github</a>
+          </li>
+          <li class="list-item">2021</li>
+
+          <li class="list-item">
+            <a href="https://rs.school/js/" class=""
+              ><img
+                class="logo"
+                src="assets/rs_school_js.svg"
+                alt="rs_school-logo"
+            /></a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+  </body>
+</html>
