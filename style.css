@@ -1,3 +1,153 @@
-h1 {
-  background-color: black;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: rgb(51, 51, 51);
+}
+h2,
+b {
+  font-size: 3rem;
+}
+p,
+ul,
+code {
+  font-size: 2rem;
+  list-style: none;
+}
+main {
+  background-color: rgb(248, 247, 247);
+}
+.container {
+  /* 1140px */
+  max-width: 120rem;
+
+  margin: 0 auto;
+}
+
+.list {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  gap: 4.8rem;
+  list-style: none;
+  padding: 3.2rem 0 3.2rem;
+  background-color: #ddd;
+}
+
+.anker {
+  list-style: none;
+  font-size: 1.8rem;
+}
+
+.anker:link,
+.anker:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+
+.anker:hover,
+.anker:active {
+  color: #cf711f;
+}
+
+.grid {
+  display: grid;
+  column-gap: 3.2rem;
+  row-gap: 9.6rem;
+}
+.grid--2-cols {
+  grid-template-columns: 4fr 6fr;
+}
+
+img {
+  width: 100%;
+}
+.name {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  line-height: 1.2;
+}
+.h1 {
+  font-size: 5.2rem;
+  font-weight: 500;
+}
+.name p {
+  font-size: 3rem;
+}
+.left-side-info {
+  display: flex;
+  flex-direction: column;
+
+  gap: 1.8rem;
+  padding-top: 3rem;
+  padding-left: 4.2rem;
+}
+.main-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.6rem;
+  margin-left: 1.2rem;
+}
+.about {
+  margin: 3rem 3rem 3rem 0;
+  line-height: 1.15;
+}
+.list-right {
+  display: flex;
+  gap: 12.8rem;
+}
+.skills {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  margin: 3rem 3rem 3rem 0;
+}
+code {
+  line-height: 1.5;
+}
+.blue {
+  color: blue;
+}
+.green {
+  color: green;
+}
+.orange {
+  color: orange;
+}
+.red {
+  color: red;
+}
+.yellow {
+  color: rgba(233, 218, 8, 0.575);
+}
+.left-side-info {
+  background-color: #ddd;
+}
+.logo {
+  width: 50%;
+  height: 50%;
+  padding: 0%;
+  margin-right: -10.4rem;
+}
+.cut-padding {
+  padding-bottom: 0.8rem;
 }
